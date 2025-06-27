@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <style>
+   body {
+  margin: 0;
+  padding: 0; 
+  background: #0f172a;
+  color: #fff;
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+    .contact-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+
+    .contact-right {
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .contact-right h1 {
+      font-size: 60px;
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    
+
+    .contact-info div strong {
+      display: block;
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: #ffcc70;
+    }
+
+    .contact-info a {
+      color: #80d0ff;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .contact-right h1 {
+        font-size: 40px;
+      }
+
+      .contact-info div {
+        font-size: 16px;
+        padding: 15px;
+      }
+
+      .contact-info div strong {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <div class="contact-right">
+      <h1>CONTACT ME</h1>
+      <div class="contact-info">
+        <div>
+          <strong>E-Mail</strong>
+          logunsamy@gmail.com
+        </div><br>
+        <div>
+          <strong>Phone Number</strong>
+          +91 8072670481
+        </div><br>
+        <div>
+          <strong>GitHub</strong>
+          <a href="https://github.com/" target="_blank">Click...</a>
+        </div><br>
+        <div>
+          <strong>LinkedIn</strong>
+          <a href="https://www.linkedin.com/in/logeswari-narayanasamy/" target="_blank">Click...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

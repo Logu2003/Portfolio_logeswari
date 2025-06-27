@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Images</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+     body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      height: 100%;
+    }
+
+    .sticky-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      object-fit: cover;
+      border: 6px solid white;
+      border-radius: 0;
+     
+    }
+
+    .content {
+      position: relative;
+      padding: 60px;
+      color: #4E1F00;
+      text-shadow: 4px 4px 10px #000;
+      font-size: 45px;
+    }
+
+    
+
+    .scrolling-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .scrolling-images img {
+      width: 450px;
+      height: 350px;
+      object-fit: cover;
+      border: 4px solid white;
+      border-radius: 15px;
+      box-shadow:
+        0 0 12px #102E50,
+        0 0 27px  #3A0519,
+        0 0 27px #732255;
+      transition: transform 0.3s ease;
+    }
+
+    .scrolling-images img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .scrolling-images img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>  
+  <img src="./0320f7fd-0dd0-4fdc-92c4-39a40dcd58e5.jpg" alt="Sticky Full Background" class="sticky-bg">  
+  <div class="content">
+    <div class="section">
+      <h1>Industrial Visits</h1>     
+    </div>
+    <div class="scrolling-images">
+      <img src="./a471e879-a97a-4ed3-8164-c9d8490828c7.jpg" alt="img2">
+      <img src="./2b2181d8-66a5-4f84-8165-4d3fd0b2a039.jpg" alt="img3">
+      <img src="./3c866e06-7207-43c1-a2ab-287ceddc6344.jpg" alt="img4">
+      <img src="./7df538e6-fc1d-471b-a914-c384c2a3a3a3.jpg" alt="img5">      
+      <img src="./7efc02d6-7407-4870-9f3b-8ba3d89f9d12.jpg" alt="img6">
+      <img src="./8234c59b-bd1b-4896-a2fa-0eb1a9bf183d.jpg" alt="img7">
+      <img src="./2e5ae7de-15e2-403f-bdbf-c3eff9b91a8b.jpg" alt="img8">
+      <img src="./f70a1fe1-0492-4d3b-86fc-ec0223342ac5.jpg" alt="img9">
+      <img src="./df0cc6ff-7430-4219-813f-af6e00f97aa0.jpg" alt="img10">
+      <img src="./74b92e0d-36d4-48da-b386-3924faa867ce.jpg" alt="img11">
+      <img src="./d9a8a052-a066-4490-a207-f52991d88fa4.jpg" alt="img12">
+    </div> 
+</body>
+</html>
