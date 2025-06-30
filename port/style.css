@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0)), url('./bimg.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-content {
+  width: 80%;
+  margin: auto;
+}
+
+.name {
+  font-size: 45px;
+  padding-bottom: 20px;
+
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+
+}
+
+.hero p {
+  font-size: 25px;
+  margin-bottom: 40px;
+
+
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  
+
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+body {
+  font-size: 27px;
+  line-height: 1;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px 0;
+
+}
+
+header {
+  background: #f4f4f4;
+  padding: 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+.header-text h1 {
+  margin: 0 0 5px 0;
+}
+
+.header-text p {
+  margin: 0 0 20px 0;
+  font-size: 35px;
+}
+
+.header-text button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  
+}
+.header-text button:hover{
+  text-decoration: underline;
+
+}
+
+
+.sheader-text button {
+  background-color: #0056b3;
+}
+
+#projects,
+#contact {
+  padding: 40px 0;
+  border: 2px ;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.project p {
+  padding-top: 10px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project ul p::before {
+  content: "➤";
+  padding-left: 20px;
+}
+
+.container p {
+
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+
+  .header-text h1 {
+    font-size: 24px;
+  }
+
+  .header-text p {
+    font-size: 18px;
+  }
+
+  .project {
+    padding: 15px;
+  }
+
+
+
+
+  body {
+    font-size: 20px;
+    padding-top: 0;
+  }
+}
+
+.intern p::before {
+  content: "➤";
+}
